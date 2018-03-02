@@ -1,0 +1,45 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/tp/xm1iarc/xm1iarc013/projet_asic/Add1/srcvhd
+Efull_adder
+Z1 w1519803237
+R0
+Z2 8add1.vhd
+Z3 Fadd1.vhd
+l0
+L1
+V[cK^:oAh2b7mhNSB`eLFe0
+!s100 [hGWLbQ?7=R9AHYM<l[hm2
+Z4 OL;C;10.4b;61
+32
+Z5 !s110 1519803833
+!i10b 1
+Z6 !s108 1519803833.000000
+Z7 !s90 -work|LIB_ADD1|add1.vhd|
+Z8 !s107 add1.vhd|
+!i113 0
+Z9 o-work LIB_ADD1
+Z10 tExplicit 1
+Adataflow_view
+Z11 DEx4 work 10 full_adder 0 22 [cK^:oAh2b7mhNSB`eLFe0
+l7
+L6
+Z12 VW^`J?lH1bbg6>^moGJY:=2
+Z13 !s100 3n5c[gi3OHkiH95:[m15L3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 0
+R9
+R10

@@ -1,0 +1,34 @@
+# //  ModelSim SE-64 10.4b May 26 2015 Linux 3.2.0-4-amd64
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+vsim LIB_ADD1_BENCH.config1
+# vsim LIB_ADD1_BENCH.config1 
+# Start time: 08:57:31 on Feb 28,2018
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading work.config1#1
+# Loading work.testadd1(test1)#1
+# Loading lib_add1.full_adder(dataflow_view)#1
+add wave  \
+sim:/testadd1/x \
+sim:/testadd1/y \
+sim:/testadd1/c1 \
+sim:/testadd1/s \
+sim:/testadd1/c2
+run
+# Window cannot be closed because the modal window "Quit Vsim" is still open.
+# Window cannot be closed because the modal window "Quit Vsim" is still open.
+# Window cannot be closed because the modal window "Quit Vsim" is still open.
+# End time: 09:09:20 on Feb 28,2018, Elapsed time: 0:11:49
+# Errors: 0, Warnings: 3

@@ -1,0 +1,156 @@
+# //  ModelSim SE-64 10.4b May 26 2015 Linux 3.2.0-4-amd64
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+vsim LIB_PACCES_BENCH.config1
+# vsim LIB_PACCES_BENCH.config1 
+# Start time: 11:24:58 on Feb 28,2018
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading work.config1#1
+# Loading work.testpacces(test1)#1
+# Loading lib_pacces.parking(automaton)#1
+add wave  \
+sim:/testpacces/clk1 \
+sim:/testpacces/require_in1 \
+sim:/testpacces/avail1 \
+sim:/testpacces/sensor_in1 \
+sim:/testpacces/gate_in_open1 \
+sim:/testpacces/gate_out_open1 \
+sim:/testpacces/car_in1
+run
+run
+run
+run
+run
+run
+run
+vsim LIB_PACCES_BENCH.config1
+# ** Warning: (vsim-31) Unable to unlink file "/tp/xm1iarc/xm1iarc013/projet_asic/Pacces/libs/LIB_PACCES_BENCH/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# End time: 11:37:01 on Feb 28,2018, Elapsed time: 0:12:03
+# Errors: 0, Warnings: 1
+# vsim LIB_PACCES_BENCH.config1 
+# Start time: 11:37:01 on Feb 28,2018
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading work.config1#1
+# Loading work.testpacces(test1)#1
+# Loading lib_pacces.parking(automaton)#1
+add wave  \
+sim:/testpacces/clk1 \
+sim:/testpacces/require_in1 \
+sim:/testpacces/avail1 \
+sim:/testpacces/sensor_in1 \
+sim:/testpacces/gate_in_open1 \
+sim:/testpacces/car_in1
+run
+vsim LIB_PACCES_BENCH.config1
+# ** Warning: (vsim-31) Unable to unlink file "/tp/xm1iarc/xm1iarc013/projet_asic/Pacces/libs/LIB_PACCES_BENCH/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# End time: 11:44:00 on Feb 28,2018, Elapsed time: 0:06:59
+# Errors: 0, Warnings: 1
+# vsim LIB_PACCES_BENCH.config1 
+# Start time: 11:44:00 on Feb 28,2018
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading work.config1#1
+# Loading work.testpacces(test1)#1
+# Loading lib_pacces.parking(automaton)#1
+add wave  \
+sim:/testpacces/clk1 \
+sim:/testpacces/require_in1 \
+sim:/testpacces/avail1 \
+sim:/testpacces/sensor_in1 \
+sim:/testpacces/insert_ticket1 \
+sim:/testpacces/sensor_out1 \
+sim:/testpacces/gate_in_open1 \
+sim:/testpacces/gate_out_open1 \
+sim:/testpacces/car_in1 \
+sim:/testpacces/ticket_inserted1 \
+sim:/testpacces/car_out1 \
+sim:/testpacces/ticketOK1
+run
+vsim LIB_PACCES_BENCH.config1
+# ** Warning: (vsim-31) Unable to unlink file "/tp/xm1iarc/xm1iarc013/projet_asic/Pacces/libs/LIB_PACCES_BENCH/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# End time: 11:56:14 on Feb 28,2018, Elapsed time: 0:12:14
+# Errors: 0, Warnings: 1
+# vsim LIB_PACCES_BENCH.config1 
+# Start time: 11:56:14 on Feb 28,2018
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading work.config1#1
+# Loading work.testpacces(test1)#1
+# Loading lib_pacces.parking(automaton)#1
+run
+add wave  \
+sim:/testpacces/clk1 \
+sim:/testpacces/require_in1 \
+sim:/testpacces/avail1 \
+sim:/testpacces/sensor_in1 \
+sim:/testpacces/insert_ticket1 \
+sim:/testpacces/sensor_out1 \
+sim:/testpacces/gate_in_open1 \
+sim:/testpacces/gate_out_open1 \
+sim:/testpacces/car_in1 \
+sim:/testpacces/ticket_inserted1 \
+sim:/testpacces/car_out1 \
+sim:/testpacces/ticketOK1
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+vsim LIB_PACCES_BENCH.config1
+# ** Warning: (vsim-31) Unable to unlink file "/tp/xm1iarc/xm1iarc013/projet_asic/Pacces/libs/LIB_PACCES_BENCH/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# End time: 12:11:15 on Feb 28,2018, Elapsed time: 0:15:01
+# Errors: 0, Warnings: 1
+# vsim LIB_PACCES_BENCH.config1 
+# Start time: 12:11:15 on Feb 28,2018
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading work.config1#1
+# Loading work.testpacces(test1)#1
+# Loading lib_pacces.parking(automaton)#1
+add wave  \
+sim:/testpacces/clk1 \
+sim:/testpacces/require_in1 \
+sim:/testpacces/avail1 \
+sim:/testpacces/timeout11 \
+sim:/testpacces/gate_in_open1 \
+sim:/testpacces/car_in1
+run
+vsim LIB_PACCES_BENCH.config1
+# ** Warning: (vsim-31) Unable to unlink file "/tp/xm1iarc/xm1iarc013/projet_asic/Pacces/libs/LIB_PACCES_BENCH/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# End time: 12:12:56 on Feb 28,2018, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 1
+# vsim LIB_PACCES_BENCH.config1 
+# Start time: 12:12:56 on Feb 28,2018
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading work.config1#1
+# Loading work.testpacces(test1)#1
+# Loading lib_pacces.parking(automaton)#1
+add wave  \
+sim:/testpacces/clk1 \
+sim:/testpacces/require_in1 \
+sim:/testpacces/avail1 \
+sim:/testpacces/timeout11 \
+sim:/testpacces/gate_in_open1 \
+sim:/testpacces/car_in1
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
