@@ -69,7 +69,55 @@ begin
 	
     process(state, Half_power, Full_power, Start, s30, s60, s120,
     begin
-    end process;
+        
+        if state = Idle and Full_power = '1' then
+            Full <= '1';
+        else Full <= '0';
+        end if;
 
-end Controller;
+        if state = Idle and Half_power = '1' then
+            Half <= '1';
+        else Half <= '0';
+        end if;
+
+        if state = Full_power_on and Half_power = '1' then
+            Half <= '1';
+        else Half <= '0';
+        end if;
+
+
+        if state = Half_power_on and Full_power = '1' then
+            Full <= '1';
+        else Full <= '0';
+        end if;
+
+        if state = Set_time and Door_open = '1' and Timeset = '1' then
+            In_light <= '1';
+        else In_light <= '0';
+        end if;
+
+        if state = Operation_enabled and Start = '1' then
+            In_light <= '1';
+            Start_count <= '1';
+        else In_light <= '0'; Start_count <= '0'; 
+        end if;
+
+        if state = Operation_disabled and Door_open = '1' then
+            In_light <= '1';
+        else In_light <= '0'
+        end if;
+
+        if state = Operating and Door_open = '1' and Timeout = '0'then
+            In_light <= '1';
+            Stop_count <= '1';
+        else In_light <= '0'; Stop_count <= '0';
+        end if;
+    
+        if state = Operating and  Timeout  = '1' then
+            Finished <= '1';
+        else Finished <= '0';
+
+        end process;
+
+    end Controller;
 
