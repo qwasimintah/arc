@@ -11,6 +11,6 @@ fi
 vlib ../libs/LIB_OVEN
 
 ## compilation
-vcom -work LIB_OVEN oven.vhd -cover bsf
-vcom -work LIB_OVEN counter.vhdl -cover bsf 
-vcom -work LIB_OVEN oven_glob.vhd -cover bsf
+vcom -work LIB_OVEN oven.vhd 
+vcom -work LIB_OVEN counter.vhdl 
+vcom -work LIB_OVEN oven_glob.vhd 

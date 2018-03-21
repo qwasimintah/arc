@@ -1,14 +1,14 @@
 #!/bin/bash
 
 ## nettoyage
-if [ -d ../libs/LIB_ADD1_BENCH ] 
-then /bin/rm -rf ../libs/LIB_ADD1_BENCH
+if [ -d ../libs/LIB_OVEN_BENCH ] 
+then /bin/rm -rf ../libs/LIB_OVEN_BENCH
 fi
 
 ## creation de la librairie de travail
-vlib ../libs/LIB_ADD1_BENCH
+vlib ../libs/LIB_OVEN_BENCH
 
 
 ## compilation
-vcom -work LIB_ADD1_BENCH testAdd1.vhd
+vcom -work LIB_OVEN_BENCH testOven.vhd -cover bsf
 
