@@ -25,14 +25,11 @@ process
 		wait for 500 ms; 
 	end process;
     reset1 <= '1' after 1000 ms, '0' after 2000 ms; 
-    Half_power1 <= '1' after 50  sec, '0' after 60 sec, '1' after 190  sec, '0' after 200 sec;
-
-    Full_power1 <= '1' after 3 sec, '0' after 4 sec, '1' after 200 sec, '0' after 210 sec;
-    s301 <= '1' after 4.5 sec, '0' after 40 sec, '1' after 220 sec;
-    s601 <= '1' after 65  sec, '0' after 180 sec;
-    Start1 <= '1' after 7 sec, '0' after 8  sec,  '1' after 100 sec, '0' after 110 sec, '1' after 240 sec;
-    Time_set1 <= '1' after 5.5 sec,  '0' after 6.5 sec, '1' after 80  sec, '0' after 90  sec, '1' after 230  sec;
-    Door_open1 <= '1' after 42 sec, '0' after 50 sec,  '1' after 80  sec, '0' after 90 sec, '1' after 180  sec, '0' after 190 sec, '1' after 300  sec;
+    Full_power1 <= '1' after 3000 ms;
+    s301 <= '1' after 4500 ms;
+    Time_set1 <= '1' after 5500 ms;
+    Start1 <= '1' after 7000 ms;
+    Door_open1 <= '1' after 40000 ms;
 
 end test1;
 

@@ -12,23 +12,60 @@
 # //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
 # //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
 # //
-vsim LIB_ADD1_BENCH.config1
-# vsim LIB_ADD1_BENCH.config1 
-# Start time: 08:57:31 on Feb 28,2018
+vsim LIB_OVEN_BENCH.config1
+# vsim LIB_OVEN_BENCH.config1 
+# Start time: 11:41:51 on Mar 21,2018
 # ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Oven_ctrl(Controller)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Oven_count(Impl)".
 # Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
 # Loading work.config1#1
-# Loading work.testadd1(test1)#1
-# Loading lib_add1.full_adder(dataflow_view)#1
-add wave  \
-sim:/testadd1/x \
-sim:/testadd1/y \
-sim:/testadd1/c1 \
-sim:/testadd1/s \
-sim:/testadd1/c2
+# Loading work.testoven(test1)#1
+# Loading lib_oven.config2#1
+# Loading lib_oven.oven_glob(complete)#1
+# Loading lib_oven.oven_ctrl(controller)#1
+# Loading lib_oven.oven_count(impl)#1
+add wave -position insertpoint sim:/testoven/A/A/*
+add wave -position insertpoint sim:/testoven/A/B/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
 run
-# Window cannot be closed because the modal window "Quit Vsim" is still open.
-# Window cannot be closed because the modal window "Quit Vsim" is still open.
-# Window cannot be closed because the modal window "Quit Vsim" is still open.
-# End time: 09:09:20 on Feb 28,2018, Elapsed time: 0:11:49
-# Errors: 0, Warnings: 3
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run
+restart
+# ** Warning: (vsim-31) Unable to unlink file "/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/libs/LIB_OVEN_BENCH/_opt1__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Oven_ctrl(Controller)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Oven_count(Impl)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.config1#1
+# Loading work.testoven(test1)#1
+# Loading lib_oven.config2#1
+# Loading lib_oven.oven_glob(complete)#1
+# Loading lib_oven.oven_ctrl(controller)#1
+# Loading lib_oven.oven_count(impl)#1
+run
+restart
+# ** Warning: (vsim-31) Unable to unlink file "/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/libs/LIB_OVEN_BENCH/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Oven_ctrl(Controller)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Oven_count(Impl)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.config1#1
+# Loading work.testoven(test1)#1
+# Loading lib_oven.config2#1
+# Loading lib_oven.oven_glob(complete)#1
+# Loading lib_oven.oven_ctrl(controller)#1
+# Loading lib_oven.oven_count(impl)#1
+run
+# End time: 11:46:51 on Mar 21,2018, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 2

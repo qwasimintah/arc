@@ -11,6 +11,29 @@ end Oven_ctrl;
 architecture Controller of Oven_ctrl is
 type States is (Idle, Full_power_on, Half_power_on, Set_time, Operation_enabled, Operation_disabled, Operating, Complete);
 signal state,nextstate: States;
+-- PSL default clock is (clk'event and clk='1');
+-- PSL property prop1 is
+-- always(state=Idle -> (state/=Operation_enabled until (s30='1' or s60 = '1' or s120 = '1')));
+-- PSL property prop2 is
+-- always((state=Operating and Door_open='1') -> ((next! (state/=Operating) and (Start='1' before! (state=Operating)))) );
+-- PSL property prop3 is
+-- always((state=Operation_enabled and Start='1') -> In_light='1' until ((state=Operation_disabled and Door_open='0') or Timeout='1'));
+
+-- PSL property prop4 is
+-- always(
+--    {(state=Operation_enabled and Start='1');
+--     (s30='1' or s60='1' or s120='1' or Half_power='1' or Full_power='1' or Start='1' or Time_set='1')[*];
+--     Timeout='1'; 
+--     Door_open='0'[*];
+--     Door_open='1'
+--    }
+--     |-> (next! state=Idle)
+-- );
+
+-- PSL assert prop1;
+-- PSL assert prop2;
+-- PSL assert prop3;
+-- PSL assert prop4;
 begin
     process(state, Half_power, Full_power, Start, s30, s60, s120,
             Time_set, Door_open, Timeout) 
@@ -81,7 +104,7 @@ begin
         else Half <= '0';
         end if;
 
-        if (state = Set_time and Door_open = '1' and Time_set = '1') or (state = Operation_enabled and Start = '1') or (state = Operation_disabled and Door_open = '1') or (state = Operating and Door_open = '1' and Timeout = '0') then
+        if (state = Set_time and Door_open = '1' and Time_set = '1') or (state = Operation_enabled and Start = '1') or (state = Operation_disabled and Door_open = '1') or (state = Operating and Timeout = '0') then
             In_light <= '1';
         else In_light <= '0';
         end if;

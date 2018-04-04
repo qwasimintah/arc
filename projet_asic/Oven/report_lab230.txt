@@ -1,0 +1,19 @@
+Coverage Report Summary Data by file
+
+=================================================================================
+=== File: /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/counter.vhdl
+=================================================================================
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Branches                        14        10         4      71.4
+
+=================================================================================
+=== File: /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd
+=================================================================================
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Branches                        43        33        10      76.7
+
+
+Total Coverage By File (code coverage only, filtered view): 75.4%
+

@@ -1,3 +1,3 @@
 #!/bin/bash -f
 
-export MODELSIM=$HOME/projet_asic/Add1/confmodelsim/modelsim.ini
+export MODELSIM=$HOME/arc/projet_asic/Oven/confmodelsim/modelsim.ini

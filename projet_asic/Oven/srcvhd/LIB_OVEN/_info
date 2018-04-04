@@ -1,0 +1,127 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd
+Eoven_count
+Z1 w1520005021
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8counter.vhdl
+Z5 Fcounter.vhdl
+l0
+L7
+VS2DIR[X=inNCcIS27><j<2
+!s100 RMZbWIELelGc?^Y>KhgJB0
+Z6 OL;C;10.4b;61
+32
+Z7 !s110 1520010033
+!i10b 1
+Z8 !s108 1520010033.000000
+Z9 !s90 -work|LIB_OVEN|counter.vhdl|
+Z10 !s107 counter.vhdl|
+!i113 0
+Z11 o-work LIB_OVEN
+Z12 tExplicit 1
+Aimpl
+R2
+R3
+DEx4 work 10 oven_count 0 22 S2DIR[X=inNCcIS27><j<2
+l16
+L12
+VoMd502;:Z2DIL2<@jMIDf3
+!s100 mDSG=`YUGk1=3DKaS`O8S1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eoven_ctrl
+Z13 w1520003613
+R2
+R3
+R0
+Z14 8oven.vhd
+Z15 Foven.vhd
+l0
+L4
+VJaQH7[XGl[dO;XVl;1[=C2
+!s100 c8VBk<?2VRO]dPza1R[n;1
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -work|LIB_OVEN|oven.vhd|
+Z17 !s107 oven.vhd|
+!i113 0
+R11
+R12
+Acontroller
+R2
+R3
+DEx4 work 9 oven_ctrl 0 22 JaQH7[XGl[dO;XVl;1[=C2
+l14
+L11
+V<nUgXS`?F]EI9]]0iO]@?3
+!s100 hd@LdgR]Z2l8EzDf[Ba`J3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 0
+R11
+R12
+Eoven_glob
+Z18 w1520010020
+R2
+R3
+R0
+Z19 8oven_glob.vhd
+Z20 Foven_glob.vhd
+l0
+L7
+VnBI7_cN;DMZLc9DzNJQ000
+!s100 nCKc73ST3eX1BLC<==a5Q0
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -work|LIB_OVEN|oven_glob.vhd|
+Z22 !s107 oven_glob.vhd|
+!i113 0
+R11
+R12
+Acomplete
+R2
+R3
+DEx4 work 9 oven_glob 0 22 nBI7_cN;DMZLc9DzNJQ000
+l26
+L13
+Va>bgoKoc[:O=M56F7;FMQ1
+!s100 [2>JVB2`RS3dU:Pe0UK3>1
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 0
+R11
+R12
