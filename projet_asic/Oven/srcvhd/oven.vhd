@@ -22,7 +22,7 @@ signal state,nextstate: States;
 -- PSL property prop4 is
 -- always(
 --    {(state=Operation_enabled and Start='1');
---     (s30='1' or s60='1' or s120='1' or Half_power='1' or Full_power='1' or Start='1' or Time_set='1')[*];
+--     (Timeout='0' and Door_open='0')[*];
 --     Timeout='1'; 
 --     Door_open='0'[*];
 --     Door_open='1'

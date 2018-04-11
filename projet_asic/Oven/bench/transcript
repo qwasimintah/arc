@@ -14,58 +14,11 @@
 # //
 vsim LIB_OVEN_BENCH.config1
 # vsim LIB_OVEN_BENCH.config1 
-# Start time: 11:41:51 on Mar 21,2018
+# Start time: 10:25:47 on Apr 04,2018
 # ** Note: (vsim-3812) Design is being optimized...
-# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Oven_ctrl(Controller)".
-# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Oven_count(Impl)".
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.config1#1
-# Loading work.testoven(test1)#1
-# Loading lib_oven.config2#1
-# Loading lib_oven.oven_glob(complete)#1
-# Loading lib_oven.oven_ctrl(controller)#1
-# Loading lib_oven.oven_count(impl)#1
-add wave -position insertpoint sim:/testoven/A/A/*
-add wave -position insertpoint sim:/testoven/A/B/*
-restart
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-run
-restart
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-run
-restart
-# ** Warning: (vsim-31) Unable to unlink file "/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/libs/LIB_OVEN_BENCH/_opt1__lock".
-# No such file or directory. (errno = ENOENT)
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Oven_ctrl(Controller)".
-# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Oven_count(Impl)".
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.config1#1
-# Loading work.testoven(test1)#1
-# Loading lib_oven.config2#1
-# Loading lib_oven.oven_glob(complete)#1
-# Loading lib_oven.oven_ctrl(controller)#1
-# Loading lib_oven.oven_count(impl)#1
-run
-restart
-# ** Warning: (vsim-31) Unable to unlink file "/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/libs/LIB_OVEN_BENCH/_opt__lock".
-# No such file or directory. (errno = ENOENT)
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Oven_ctrl(Controller)".
-# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Oven_count(Impl)".
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.config1#1
-# Loading work.testoven(test1)#1
-# Loading lib_oven.config2#1
-# Loading lib_oven.oven_glob(complete)#1
-# Loading lib_oven.oven_ctrl(controller)#1
-# Loading lib_oven.oven_count(impl)#1
-run
-# End time: 11:46:51 on Mar 21,2018, Elapsed time: 0:05:00
-# Errors: 0, Warnings: 2
+# ** Error: (vopt-11) Could not find lib_oven.oven_ctrl(ControllerBin).
+# ** Warning: oven_glob2.vhd(27): (vopt-3473) Component instance "/testOven/B/A : Oven_ctrl" is not bound.
+# Optimization failed
+# Error loading design
+# End time: 10:25:48 on Apr 04,2018, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1

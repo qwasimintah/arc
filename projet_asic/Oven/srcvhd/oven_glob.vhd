@@ -39,3 +39,14 @@ configuration config2 of LIB_OVEN.Oven_glob is
             end for;
         end for; 
     end config2;
+
+library LIB_OVEN;
+
+configuration config3 of LIB_OVEN.Oven_glob is 
+    for Complete 
+        for A: Oven_ctrl use entity LIB_OVEN.Oven_ctrl(ControllerOneh);
+            end for;
+        for B: Oven_count use entity LIB_OVEN.Oven_count(Impl);
+            end for;
+        end for; 
+    end config3;

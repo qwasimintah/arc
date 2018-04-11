@@ -17,25 +17,26 @@ Z4 8counter.vhdl
 Z5 Fcounter.vhdl
 l0
 L7
-VS2DIR[X=inNCcIS27><j<2
+VSWc`=S[3CCQ:40KLQP:>c2
 !s100 RMZbWIELelGc?^Y>KhgJB0
 Z6 OL;C;10.4b;61
 32
-Z7 !s110 1520010033
+Z7 !s110 1522825773
 !i10b 1
-Z8 !s108 1520010033.000000
-Z9 !s90 -work|LIB_OVEN|counter.vhdl|
+Z8 !s108 1522825773.000000
+Z9 !s90 -work|LIB_OVEN|counter.vhdl|-cover|bsf|
 Z10 !s107 counter.vhdl|
 !i113 0
-Z11 o-work LIB_OVEN
-Z12 tExplicit 1
+Z11 !s102 -cover bsf
+Z12 o-work LIB_OVEN -cover bsf
+Z13 tExplicit 1
 Aimpl
 R2
 R3
-DEx4 work 10 oven_count 0 22 S2DIR[X=inNCcIS27><j<2
+DEx4 work 10 oven_count 0 22 SWc`=S[3CCQ:40KLQP:>c2
 l16
 L12
-VoMd502;:Z2DIL2<@jMIDf3
+Vgo73c>9Vb9jJjc1<e>UN31
 !s100 mDSG=`YUGk1=3DKaS`O8S1
 R6
 32
@@ -47,27 +48,28 @@ R10
 !i113 0
 R11
 R12
+R13
 Eoven_ctrl
-Z13 w1520003613
+Z14 w1520003613
 R2
 R3
 R0
-Z14 8oven.vhd
-Z15 Foven.vhd
+Z15 8oven.vhd
+Z16 Foven.vhd
 l0
 L4
 VJaQH7[XGl[dO;XVl;1[=C2
 !s100 c8VBk<?2VRO]dPza1R[n;1
 R6
 32
-R7
+Z17 !s110 1520010033
 !i10b 1
-R8
-Z16 !s90 -work|LIB_OVEN|oven.vhd|
-Z17 !s107 oven.vhd|
+Z18 !s108 1520010033.000000
+Z19 !s90 -work|LIB_OVEN|oven.vhd|
+Z20 !s107 oven.vhd|
 !i113 0
-R11
-R12
+Z21 o-work LIB_OVEN
+R13
 Acontroller
 R2
 R3
@@ -78,35 +80,36 @@ V<nUgXS`?F]EI9]]0iO]@?3
 !s100 hd@LdgR]Z2l8EzDf[Ba`J3
 R6
 32
-R7
-!i10b 1
-R8
-R16
 R17
+!i10b 1
+R18
+R19
+R20
 !i113 0
-R11
-R12
+R21
+R13
 Eoven_glob
-Z18 w1520010020
+Z22 w1522825308
 R2
 R3
 R0
-Z19 8oven_glob.vhd
-Z20 Foven_glob.vhd
+8oven_glob2.vhd
+Foven_glob2.vhd
 l0
 L7
-VnBI7_cN;DMZLc9DzNJQ000
+VfamQ;e8CYJ7::WP4nU81Y2
 !s100 nCKc73ST3eX1BLC<==a5Q0
 R6
 32
 R7
 !i10b 1
 R8
-Z21 !s90 -work|LIB_OVEN|oven_glob.vhd|
-Z22 !s107 oven_glob.vhd|
+!s90 -work|LIB_OVEN|oven_glob2.vhd|-cover|bsf|
+!s107 oven_glob2.vhd|
 !i113 0
 R11
 R12
+R13
 Acomplete
 R2
 R3
@@ -117,11 +120,13 @@ Va>bgoKoc[:O=M56F7;FMQ1
 !s100 [2>JVB2`RS3dU:Pe0UK3>1
 R6
 32
-R7
+R17
 !i10b 1
-R8
-R21
-R22
+R18
+!s90 -work|LIB_OVEN|oven_glob.vhd|
+!s107 oven_glob.vhd|
 !i113 0
-R11
-R12
+R21
+R13
+Foven_glob.vhd
+8oven_glob.vhd

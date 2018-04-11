@@ -1,0 +1,469 @@
+LeonardoSpectrum Level 3 - 2015a.6 (Release Production Release, compiled Aug 19 2015 at 05:45:58)
+Copyright 1990-2015 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2015 Compuware Corporation
+
+Session history will be logged to file '/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/leospec.his'
+--
+-- Welcome to LeonardoSpectrum Level 3
+-- Run Started On Wed Apr 04 08:25:54 AM CEST 2018
+--
+Reading library file `/softslin/leonardo2015a/lib/c35_CORELIB.syn`...
+Delays assume: Process=typical Temp= 25.0 C  Voltage=3.30 V  
+Info: setting encoding to auto
+Info, Command 'load_library' finished successfully
+Info: setting encoding to Binary
+Binary
+-- Reading file /softslin/leonardo2015a/data/standard.vhd for unit standard
+-- Loading package standard into library std
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd into library work
+-- Reading file /softslin/leonardo2015a/data/std_1164.vhd for unit std_logic_1164
+-- Loading package std_logic_1164 into library ieee
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 12: Info, Enumerated type States with 8 elements encoded as Binary.
+Encodings for States values
+        value    States[2-0]
+============================
+           Idle  000
+  Full_power_on  001
+  Half_power_on  010
+       Set_time  011
+Operation_enabled  100
+Operation_disabled  101
+      Operating  110
+       Complete  111
+
+-- Loading architecture Controller of Oven_ctrl into library work
+-- Compiling root entity Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Boundary optimization.
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+Info: setting novendor_constraint_file to FALSE
+FALSE
+AutoWrite args are : -format VHDL oven.vhd
+-- Writing file oven.vhd
+Info, Command 'auto_write' finished successfully
+
+
+Info, Command 'report_area' finished successfully
+Info, Command 'report_delay' finished successfully
+_orig_load_library: technology library 'c35_CORELIB' has already been loaded
+Info, Command 'load_library' finished successfully
+_orig_load_library: technology library 'c35_CORELIB' has already been loaded
+Info, Command 'load_library' finished successfully
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd into library work
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 4: Warning, replacing Oven_ctrl in HDL library work.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 12: Info, Enumerated type States with 8 elements encoded as Binary.
+Encodings for States values
+        value    States[2-0]
+============================
+           Idle  000
+  Full_power_on  001
+  Half_power_on  010
+       Set_time  011
+Operation_enabled  100
+Operation_disabled  101
+      Operating  110
+       Complete  111
+
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 11: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Boundary optimization.
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd into library work
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 4: Warning, replacing Oven_ctrl in HDL library work.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 12: Info, Enumerated type States with 8 elements encoded as Binary.
+Encodings for States values
+        value    States[2-0]
+============================
+           Idle  000
+  Full_power_on  001
+  Half_power_on  010
+       Set_time  011
+Operation_enabled  100
+Operation_disabled  101
+      Operating  110
+       Complete  111
+
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 11: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Boundary optimization.
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+
+_orig_load_library: technology library 'c35_CORELIB' has already been loaded
+Info, Command 'load_library' finished successfully
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd into library work
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 4: Warning, replacing Oven_ctrl in HDL library work.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 12: Info, Enumerated type States with 8 elements encoded as Binary.
+Encodings for States values
+        value    States[2-0]
+============================
+           Idle  000
+  Full_power_on  001
+  Half_power_on  010
+       Set_time  011
+Operation_enabled  100
+Operation_disabled  101
+      Operating  110
+       Complete  111
+
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 11: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Boundary optimization.
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+NO wire table is found
+-- Optimizing netlist .work.Oven_ctrl.Controller
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Info, Command 'optimize' finished successfully
+-- Start timing optimization for design .work.Oven_ctrl.Controller
+No critical paths to optimize at this level
+Info, Command 'optimize_timing' finished successfully
+Info, Command 'report_area' finished successfully
+NO wire table is found
+Info, Command 'report_delay' finished successfully
+
+Info: setting encoding to Gray
+Gray
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd into library work
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 4: Warning, replacing Oven_ctrl in HDL library work.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 12: Info, Enumerated type States with 8 elements encoded as Gray.
+Encodings for States values
+        value    States[2-0]
+============================
+           Idle  000
+  Full_power_on  001
+  Half_power_on  011
+       Set_time  010
+Operation_enabled  110
+Operation_disabled  111
+      Operating  101
+       Complete  100
+
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 11: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Boundary optimization.
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+NO wire table is found
+-- Optimizing netlist .work.Oven_ctrl.Controller
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Info, Command 'optimize' finished successfully
+-- Start timing optimization for design .work.Oven_ctrl.Controller
+No critical paths to optimize at this level
+Info, Command 'optimize_timing' finished successfully
+Info: setting novendor_constraint_file to FALSE
+FALSE
+AutoWrite args are : -format VHDL oven_gray.vhd
+-- Writing file oven_gray.vhd
+Info, Command 'auto_write' finished successfully
+Info, Command 'report_area' finished successfully
+NO wire table is found
+Info, Command 'report_delay' finished successfully
+Info: setting encoding to OneHot
+OneHot
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd into library work
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 4: Warning, replacing Oven_ctrl in HDL library work.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 12: Info, Enumerated type States with 8 elements encoded as OneHot.
+Encodings for States values
+        value    States[7-0]
+============================
+           Idle  -------1
+  Full_power_on  ------1-
+  Half_power_on  -----1--
+       Set_time  ----1---
+Operation_enabled  ---1----
+Operation_disabled  --1-----
+      Operating  -1------
+       Complete  1-------
+
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 11: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Boundary optimization.
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+NO wire table is found
+-- Optimizing netlist .work.Oven_ctrl.Controller
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Info, Command 'optimize' finished successfully
+-- Start timing optimization for design .work.Oven_ctrl.Controller
+No critical paths to optimize at this level
+Info, Command 'optimize_timing' finished successfully
+NO wire table is found
+-- Optimizing netlist .work.Oven_ctrl.Controller
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Info, Command 'optimize' finished successfully
+-- Start timing optimization for design .work.Oven_ctrl.Controller
+No critical paths to optimize at this level
+Info, Command 'optimize_timing' finished successfully
+Info: setting novendor_constraint_file to FALSE
+FALSE
+AutoWrite args are : -format VHDL oven_onehot.vhd
+-- Writing file oven_onehot.vhd
+Info, Command 'auto_write' finished successfully
+NO wire table is found
+Info, Command 'report_delay' finished successfully
+Info, Command 'report_area' finished successfully
+
+Info: setting encoding to Auto
+Auto
+Info: setting bubble_tristates to FALSE
+FALSE
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd into library work
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 4: Warning, replacing Oven_ctrl in HDL library work.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 12: Info, Enumerated type States with 8 elements encoded as onehot.
+Encodings for States values
+        value    States[7-0]
+============================
+           Idle  -------1
+  Full_power_on  ------1-
+  Half_power_on  -----1--
+       Set_time  ----1---
+Operation_enabled  ---1----
+Operation_disabled  --1-----
+      Operating  -1------
+       Complete  1-------
+
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 11: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 10: Warning, vcomponents is not declared in library c35_CORELIB.
+-- Loading entity decoder_3 into library work
+-- Loading architecture INTERFACE of decoder_3 into library work
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 54: Warning, replacing Oven_ctrl in HDL library work.
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 118: Warning, signal DANGLING is never used.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 75: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Compiling entity decoder_3(INTERFACE)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Boundary optimization.
+-- Start pre-optimization for design .work.decoder_3.INTERFACE_unfold_1371
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+-- Start pre-optimization for design .work.decoder_3.INTERFACE_unfold_1371
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+_orig_load_library: technology library 'c35_CORELIB' has already been loaded
+Info, Command 'load_library' finished successfully
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd into library work
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 4: Warning, replacing Oven_ctrl in HDL library work.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 12: Info, Enumerated type States with 8 elements encoded as onehot.
+Encodings for States values
+        value    States[7-0]
+============================
+           Idle  -------1
+  Full_power_on  ------1-
+  Half_power_on  -----1--
+       Set_time  ----1---
+Operation_enabled  ---1----
+Operation_disabled  --1-----
+      Operating  -1------
+       Complete  1-------
+
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 11: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 10: Warning, vcomponents is not declared in library c35_CORELIB.
+-- Loading entity decoder_3 into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 15: Warning, replacing decoder_3 in HDL library work.
+-- Loading architecture INTERFACE of decoder_3 into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 21: Warning, replacing INTERFACE of entity decoder_3.
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 54: Warning, replacing Oven_ctrl in HDL library work.
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 118: Warning, signal DANGLING is never used.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 75: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Compiling entity decoder_3(INTERFACE)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Boundary optimization.
+-- Start pre-optimization for design .work.decoder_3.INTERFACE_unfold_1371
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+-- Start pre-optimization for design .work.decoder_3.INTERFACE_unfold_1371
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+Info: setting encoding to Binary
+Binary
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd into library work
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 4: Warning, replacing Oven_ctrl in HDL library work.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 12: Info, Enumerated type States with 8 elements encoded as Binary.
+Encodings for States values
+        value    States[2-0]
+============================
+           Idle  000
+  Full_power_on  001
+  Half_power_on  010
+       Set_time  011
+Operation_enabled  100
+Operation_disabled  101
+      Operating  110
+       Complete  111
+
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 11: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 10: Warning, vcomponents is not declared in library c35_CORELIB.
+-- Loading entity decoder_3 into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 15: Warning, replacing decoder_3 in HDL library work.
+-- Loading architecture INTERFACE of decoder_3 into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 21: Warning, replacing INTERFACE of entity decoder_3.
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 54: Warning, replacing Oven_ctrl in HDL library work.
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 118: Warning, signal DANGLING is never used.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 75: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Compiling entity decoder_3(INTERFACE)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Boundary optimization.
+-- Start pre-optimization for design .work.decoder_3.INTERFACE_unfold_1371
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+-- Start pre-optimization for design .work.decoder_3.INTERFACE_unfold_1371
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+
+_orig_load_library: technology library 'c35_CORELIB' has already been loaded
+Info, Command 'load_library' finished successfully
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd into library work
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 4: Warning, replacing Oven_ctrl in HDL library work.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 12: Info, Enumerated type States with 8 elements encoded as Binary.
+Encodings for States values
+        value    States[2-0]
+============================
+           Idle  000
+  Full_power_on  001
+  Half_power_on  010
+       Set_time  011
+Operation_enabled  100
+Operation_disabled  101
+      Operating  110
+       Complete  111
+
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd",line 11: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Reading vhdl file /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 10: Warning, vcomponents is not declared in library c35_CORELIB.
+-- Loading entity decoder_3 into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 15: Warning, replacing decoder_3 in HDL library work.
+-- Loading architecture INTERFACE of decoder_3 into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 21: Warning, replacing INTERFACE of entity decoder_3.
+-- Loading entity Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 54: Warning, replacing Oven_ctrl in HDL library work.
+-- Loading architecture Controller of Oven_ctrl into library work
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 118: Warning, signal DANGLING is never used.
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd",line 75: Warning, replacing Controller of entity Oven_ctrl.
+-- Compiling root entity Oven_ctrl(Controller)
+-- Compiling entity decoder_3(INTERFACE)
+-- Info, replacing Oven_ctrl(Controller)
+Info, Command 'read' finished successfully
+-- Boundary optimization.
+-- Start pre-optimization for design .work.decoder_3.INTERFACE_unfold_1371
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+-- Start pre-optimization for design .work.decoder_3.INTERFACE_unfold_1371
+-- Start pre-optimization for design .work.Oven_ctrl.Controller
+Info, Command 'pre_optimize' finished successfully
+
+Info, Instances dissolved by autodissolve in View .work.Oven_ctrl.Controller
+"/tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven_bin.vhd", line 176: ix357 (decoder_3)
+NO wire table is found
+-- Optimizing netlist .work.Oven_ctrl.Controller
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Info, Command 'optimize' finished successfully
+-- Start timing optimization for design .work.Oven_ctrl.Controller
+No critical paths to optimize at this level
+Info, Command 'optimize_timing' finished successfully
+
+Info, Command 'report_area' finished successfully
+
+
+NO wire table is found
+-- Optimizing netlist .work.Oven_ctrl.Controller
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Info, Command 'optimize' finished successfully
+-- Start timing optimization for design .work.Oven_ctrl.Controller
+No critical paths to optimize at this level
+Info, Command 'optimize_timing' finished successfully
+
+
