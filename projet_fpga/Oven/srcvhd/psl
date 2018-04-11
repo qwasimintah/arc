@@ -1,0 +1,94 @@
+always(state=Idle -> (state/=Operation_enabled until (s30='1' or s60 = '1' or s120 = '1')))
+
+#weak "until" because it is possible that the user may not chose the heating time
+
+always((state=Operating and Door_open='1') -> ((next! (state/=Operating) and (Start='1' before! (state=Operating)))) )
+
+always((state=Operation_enabled and Start='1') -> In_light='1' until ((state=Operation_disabled and Door_open='0') or Timeout='1'))
+
+#always((state=Operation_enabled and (Start='1' and next! ((s30='1' or s60='1' or s120='1' or Half_power='1' or Full_power='1' or Start='1' or Time_set='1') and (next! (Timeout='1' and (next! (Door_open='0' and (next! Door_open='1'))))))) -> (next! state=Idle)))
+
+-- always((state=Operation_enabled and (Start='1' and next! ((s30='1' or s60='1' or s120='1' or Half_power='1' or Full_power='1' or Start='1' or Time_set='1') and (next! (Timeout='1' and (next! (Door_open='0' and (next! Door_open='1')))))))) -> (next! state=Idle));
+
+
+
+always(
+    (state=Operation_enabled and 
+    (Start='1' and 
+        (next! ((s30='1' or s60='1' or s120='1' or Half_power='1' or Full_power='1' or Start='1' or Time_set='1') and
+        (next! (Timeout='1' and 
+            (next! (Door_open='0' and 
+                (next! Door_open='1')))))))))
+     -> (next! state=Idle)
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+always(
+    {(state=Operation_enabled and Start='1')[*];
+     (s30='1' or s60='1' or s120='1' or Half_power='1' or Full_power='1' or Start='1' or Time_set='1')[*];
+     Timeout='1'[*]; 
+     Door_open='0';
+     next! Door_open='1'
+     |-> (next! state=Idle)
+    }
+
+
+
+
+-- always(
+--    {(state=Operation_enabled and Start='1')[*];
+--     (s30='1' or s60='1' or s120='1' or Half_power='1' or Full_power='1' or Start='1' or Time_set='1')[*];
+--     Timeout='1'[*]; 
+--     Door_open='0';
+--     next! Door_open='1'
+--     |-> (next! state=Idle)
+--    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+always( (state=Operation_enabled and  (Start='1' before  (s30='1' or s60='1' or s120='1' or Half_power='1' or Full_power='1' or Start='1' or Time_set='1') before  Timeout='1' before (Door_open='0' and (next! Door_open='1')))) -> (next! state=Idle) )
+
+

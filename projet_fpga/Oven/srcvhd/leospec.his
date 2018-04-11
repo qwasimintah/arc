@@ -1,0 +1,55 @@
+#
+#
+# 
+# Wed 04 Apr 2018 11:33:05 AM CEST
+load_library c35_CORELIB
+set encoding Binary
+read -technology "c35_CORELIB"  { /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd }
+pre_optimize -common_logic -unused_logic -boundary -xor_comparator_optimize 
+pre_optimize -extract 
+optimize .work.Oven_ctrl.Controller -target c35_CORELIB -macro -area -effort quick -hierarchy auto 
+optimize_timing .work.Oven_ctrl.Controller 
+report_area rep_bin_area.txt -cell_usage -all_leafs 
+set novendor_constraint_file FALSE
+auto_write oven_bin.vhd
+report_delay rep_bin_delay -num_paths 1 -critical_paths -clock_frequency
+view_schematic -rtl -view
+view_schematic -view
+set encoding Gray
+read -technology "c35_CORELIB"  { /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd }
+pre_optimize -common_logic -unused_logic -boundary -xor_comparator_optimize 
+pre_optimize -extract 
+optimize .work.Oven_ctrl.Controller -target c35_CORELIB -macro -delay -effort quick -hierarchy auto 
+optimize_timing .work.Oven_ctrl.Controller 
+report_area rep_gray_area.txt -cell_usage -all_leafs 
+report_delay rep_gray_delay.txt -num_paths 1 -critical_paths -clock_frequency
+view_schematic -rtl -view
+view_schematic -view
+set encoding OneHot
+read -technology "c35_CORELIB"  { /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd }
+pre_optimize -common_logic -unused_logic -boundary -xor_comparator_optimize 
+pre_optimize -extract 
+set encoding Gray
+read -technology "c35_CORELIB"  { /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd }
+pre_optimize -common_logic -unused_logic -boundary -xor_comparator_optimize 
+pre_optimize -extract 
+optimize .work.Oven_ctrl.Controller -target c35_CORELIB -macro -delay -effort quick -hierarchy auto 
+optimize_timing .work.Oven_ctrl.Controller 
+set novendor_constraint_file FALSE
+auto_write oven_gray.vhd
+set encoding Random
+read -technology "c35_CORELIB"  { /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd }
+pre_optimize -common_logic -unused_logic -boundary -xor_comparator_optimize 
+pre_optimize -extract 
+set encoding OneHot
+read -technology "c35_CORELIB"  { /tp/xm1iarc/xm1iarc013/arc/projet_asic/Oven/srcvhd/oven.vhd }
+pre_optimize -common_logic -unused_logic -boundary -xor_comparator_optimize 
+pre_optimize -extract 
+optimize .work.Oven_ctrl.Controller -target c35_CORELIB -macro -delay -effort quick -hierarchy auto 
+optimize_timing .work.Oven_ctrl.Controller 
+report_delay rep_oneh_delay.txt -num_paths 1 -critical_paths -clock_frequency
+report_area rep_oneh_area.txt -cell_usage -all_leafs 
+view_schematic -rtl -view
+view_schematic -view
+set novendor_constraint_file FALSE
+auto_write oven_oneh.vhd
