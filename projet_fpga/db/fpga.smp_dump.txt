@@ -1,0 +1,17 @@
+
+State Machine - |Oven_glob|Oven_count:B|state
+Name state.stopped state.counting state.idle 
+state.idle 0 0 0 
+state.counting 0 1 1 
+state.stopped 1 0 1 
+
+State Machine - |Oven_glob|Oven_ctrl:A|state
+Name state.Complete state.Operating state.Operation_disabled state.Operation_enabled state.Set_time state.Half_power_on state.Full_power_on state.Idle 
+state.Idle 0 0 0 0 0 0 0 0 
+state.Full_power_on 0 0 0 0 0 0 1 1 
+state.Half_power_on 0 0 0 0 0 1 0 1 
+state.Set_time 0 0 0 0 1 0 0 1 
+state.Operation_enabled 0 0 0 1 0 0 0 1 
+state.Operation_disabled 0 0 1 0 0 0 0 1 
+state.Operating 0 1 0 0 0 0 0 1 
+state.Complete 1 0 0 0 0 0 0 1 

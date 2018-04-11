@@ -1,0 +1,32 @@
+
+*******************************************************
+
+Cell: Oven_ctrl    View: Controller    Library: work
+
+*******************************************************
+
+
+ Cell      Library  References     Total Area
+
+AOI211     c35_CORELIB     4 x     73    291 um2
+AOI221     c35_CORELIB     1 x     91     91 um2
+CLKIN1     c35_CORELIB     7 x     36    255 um2
+DFC1       c35_CORELIB     7 x    309   2166 um2
+DFP1       c35_CORELIB     1 x    309    309 um2
+NAND21     c35_CORELIB     4 x     55    218 um2
+NAND31     c35_CORELIB     1 x     73     73 um2
+NOR21      c35_CORELIB     2 x     55    109 um2
+NOR31      c35_CORELIB     2 x     73    146 um2
+OAI211     c35_CORELIB     4 x     73    291 um2
+OAI2111    c35_CORELIB     1 x     91     91 um2
+OAI221     c35_CORELIB     3 x     91    273 um2
+OAI311     c35_CORELIB     3 x     91    273 um2
+
+ Number of ports :                      17
+ Number of nets :                       58
+ Number of instances :                  40
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Number of um2 :                      4586
+ Number of accumulated instances :      40

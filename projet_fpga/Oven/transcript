@@ -1,0 +1,54 @@
+# //  ModelSim SE-64 10.4b May 26 2015 Linux 3.2.0-4-amd64
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+vsim -coverage LIB_OVEN_BENCH.config1
+# vsim -coverage LIB_OVEN_BENCH.config1 
+# Start time: 12:52:40 on Apr 04,2018
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.config1#1
+# Loading work.testoven(test1)#1
+# Loading lib_oven.config2#1
+# Loading lib_oven.oven_glob(complete)#1
+# Loading lib_oven.oven_ctrl(controller)#1
+# Loading lib_oven.oven_count(impl)#1
+# Loading lib_oven.config3#2
+# Loading lib_oven.oven_glob(complete)#2
+# Loading ieee.vital_timing(body)
+# Loading c35_corelib.vcomponents
+# Loading lib_oven.oven_ctrl(controlleroneh)#1
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Instance: /testOven/B/A
+# Loading ieee.vital_primitives(body)
+# Loading c35_corelib.vtables
+# Loading c35_corelib.aoi211(vital)#1
+# Loading c35_corelib.oai311(vital)#1
+# Loading c35_corelib.nand21(vital)#1
+# Loading c35_corelib.oai211(vital)#1
+# Loading c35_corelib.dfc1(vital)#1
+# Loading c35_corelib.clkin1(vital)#1
+# Loading c35_corelib.oai221(vital)#1
+# Loading c35_corelib.nor31(vital)#1
+# Loading c35_corelib.aoi221(vital)#1
+# Loading c35_corelib.dfp1(vital)#1
+# Loading c35_corelib.nand31(vital)#1
+# Loading c35_corelib.nor21(vital)#1
+# Loading c35_corelib.oai2111(vital)#1
+add wave -position insertpoint sim:/testoven/A/A/*
+add wave -position insertpoint sim:/testoven/B/A/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run

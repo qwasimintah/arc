@@ -1,0 +1,16 @@
+Improvement of test benches: we cover more branches but still not 100%. Test benches were updated in the way to be able to test the assertions (except prop 2).
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Scenarios: we implemented three scenarios that happen sequentially
+Scenario 1 : Full power is selected, followed by s30, Time_set is pushed, start is pushed, then we wait for the timeout, open the door and return to idle
+
+Scenario 2 : same as Scenario 1, except Half power and s60 are selected instead
+
+Scenario 3 : Half power is selected, followed by Full power, then s30, Time_set, Start, then we wait for the timeout, open the door and return to idle
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Bugs found: found a bug in the managment of In_light (was off inthe state 'Opertaing')
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Assertions: all passed

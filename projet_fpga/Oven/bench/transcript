@@ -1,0 +1,24 @@
+# //  ModelSim SE-64 10.4b May 26 2015 Linux 3.2.0-4-amd64
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+vsim LIB_OVEN_BENCH.config1
+# vsim LIB_OVEN_BENCH.config1 
+# Start time: 10:25:47 on Apr 04,2018
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find lib_oven.oven_ctrl(ControllerBin).
+# ** Warning: oven_glob2.vhd(27): (vopt-3473) Component instance "/testOven/B/A : Oven_ctrl" is not bound.
+# Optimization failed
+# Error loading design
+# End time: 10:25:48 on Apr 04,2018, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
