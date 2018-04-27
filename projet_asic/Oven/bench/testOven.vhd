@@ -12,7 +12,6 @@ architecture test1 of testOven is
         Full, Half, In_light, Finished : out std_logic);
     end component;
     signal reset1, clk1, Half_power1, Full_power1, Start1, s301, s601, s1201, Time_set1, Door_open1, Full1, Half1, In_light1, Finished1: std_logic := '0'; 
-
 begin
 
      A: Oven_glob port map(reset1, clk1, Half_power1, Full_power1, Start1, s301, s601, s1201, Time_set1, Door_open1, Full1, Half1, In_light1, Finished1);
@@ -44,10 +43,8 @@ process
 
 
 end test1;
-
 library LIB_OVEN;
 library LIB_OVEN_BENCH;
-
 configuration config1 of LIB_OVEN_BENCH.testOven is 
     for test1 
         for A:Oven_glob use configuration LIB_OVEN.config2;
