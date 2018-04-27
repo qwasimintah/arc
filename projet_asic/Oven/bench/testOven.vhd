@@ -33,14 +33,6 @@ process
     Time_set1 <= '1' after 5.5 sec,  '0' after 6.5 sec, '1' after 80  sec, '0' after 90  sec, '1' after 230  sec;
     Door_open1 <= '1' after 42 sec, '0' after 50 sec,  '1' after 80  sec, '0' after 90 sec, '1' after 180  sec, '0' after 190 sec, '1' after 300  sec;
 
-    --Half_power2 <= '1' after 50  sec, '0' after 60 sec, '1' after 190  sec, '0' after 200 sec;
-    --Full_power2 <= '1' after 3 sec, '0' after 4 sec, '1' after 200 sec, '0' after 210 sec;
-    --s302 <= '1' after 4.5 sec, '0' after 40 sec, '1' after 220 sec;
-    --s602 <= '1' after 65  sec, '0' after 180 sec;
-    --Start2 <= '1' after 7 sec, '0' after 8  sec,  '1' after 100 sec, '0' after 110 sec, '1' after 240 sec;
-    --Time_set2 <= '1' after 5.5 sec,  '0' after 6.5 sec, '1' after 80  sec, '0' after 90  sec, '1' after 230  sec;
-    --Door_open2 <= '1' after 42 sec, '0' after 50 sec,  '1' after 80  sec, '0' after 90 sec, '1' after 180  sec, '0' after 190 sec, '1' after 300  sec;
-
 
 end test1;
 library LIB_OVEN;
